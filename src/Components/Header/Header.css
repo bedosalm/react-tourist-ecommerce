@@ -1,0 +1,25 @@
+
+
+.defaultHeader,
+.moreHeader,
+.AboutHeader{
+    background-image:url("https://images.rosewoodhotels.com/is/image/rwhg/heroshot-punta-bonita-pool-and-beach-1");
+    height: calc(100vh - 85px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+
+}
+.moreHeader{
+    background-image:url("https://www.princehotels.com/wp-content/uploads/2019/04/aboutslider2-1.jpg");
+    height: 70vh;
+}
+
+.AboutHeader{
+    background-image:url("https://digital.ihg.com/is/image/ihg/ihg-home-hero-bpp-failsafe-21-9-v2");
+    height: 70vh;
+}

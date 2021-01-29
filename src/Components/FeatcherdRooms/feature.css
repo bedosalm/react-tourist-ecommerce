@@ -1,0 +1,26 @@
+.feature-content{
+    padding: 15px 0;
+    height: 350px;
+}
+.feature-content .items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    width: 85%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+/* 
+@media only screen and(max-width:992px){
+    .feature-content .items{
+        flex-wrap: wrap;
+    }
+} */
+
+@media only screen and (max-device-width:992px){
+    .feature-content .items{
+        flex-wrap: wrap;
+    }
+}
+
